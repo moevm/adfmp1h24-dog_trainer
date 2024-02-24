@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Dog Trainer</string>
+    <string name="appName">Pawfect Trainer</string>
+    <string name="appLogo">appLogo</string>
+    <string name="userName">Name*</string>
+    <string name="userSurname">Surname</string>
+    <string name="userEmail">Email*</string>
+    <string name="userPassword">Password*</string>
+    <string name="userPasswordRepeat">Repeat password*</string>
 </resources>

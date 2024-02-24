@@ -1,9 +1,11 @@
 <resources>
     <string name="appName">Pawfect Trainer</string>
     <string name="appLogo">appLogo</string>
-    <string name="userName">Name*</string>
-    <string name="userSurname">Surname</string>
+    <string name="userName">Имя*</string>
+    <string name="userSurname">Фамилия</string>
     <string name="userEmail">Email*</string>
-    <string name="userPassword">Password*</string>
-    <string name="userPasswordRepeat">Repeat password*</string>
+    <string name="userPassword">Пароль*</string>
+    <string name="userPasswordRepeat">Повторите пароль*</string>
+    <string name="signUp">Зарегистрироваться</string>
+    <string name="signIn">Войти</string>
 </resources>

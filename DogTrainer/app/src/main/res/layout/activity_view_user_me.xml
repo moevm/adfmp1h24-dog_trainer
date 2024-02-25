@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewUserMeActivity"
+    android:background="@color/mainBackground">
+
+    <View
+        android:id="@+id/topRectangle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/mainElements"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/appLogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/app_logo" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="57dp"
+        android:text="@string/appName"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/appLogo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="68dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="@+id/registrationScreenHeader"
+        app:layout_constraintTop_toBottomOf="@+id/registrationScreenHeader" />
+
+    <EditText
+        android:id="@+id/userEmail"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="68dp"
+        android:autofillHints=""
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toStartOf="@+id/registrationScreenHeader"
+        app:layout_constraintTop_toBottomOf="@+id/registrationScreenHeader" />
+
+    <EditText
+        android:id="@+id/userPatronymic"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="24dp"
+        android:autofillHints=""
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/registrationScreenHeader"
+        app:layout_constraintTop_toBottomOf="@+id/userSurname" />
+
+    <EditText
+        android:id="@+id/userSurname"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="@+id/registrationScreenHeader"
+        app:layout_constraintTop_toBottomOf="@+id/userName" />
+
+    <EditText
+        android:id="@+id/userDateBirth"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="datetime"
+        app:layout_constraintStart_toStartOf="@+id/registrationScreenHeader"
+        app:layout_constraintTop_toBottomOf="@+id/userEmail" />
+
+    <TextView
+        android:id="@+id/textUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/userName"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/userName"
+        app:layout_constraintStart_toStartOf="@+id/registrationScreenHeader" />
+
+    <TextView
+        android:id="@+id/textUserEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="@string/userEmail"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/userEmail"
+        app:layout_constraintStart_toStartOf="@+id/userEmail" />
+
+    <TextView
+        android:id="@+id/textUserSurname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/userSurname"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/userSurname"
+        app:layout_constraintStart_toStartOf="@+id/registrationScreenHeader" />
+
+    <TextView
+        android:id="@+id/textUserDateBirth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="@string/userDateBirth"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/userDateBirth"
+        app:layout_constraintStart_toStartOf="@+id/userDateBirth" />
+
+    <TextView
+        android:id="@+id/textUserPatronymic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="@string/userPatronymic"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/userPatronymic"
+        app:layout_constraintStart_toStartOf="@+id/userPatronymic" />
+
+    <TextView
+        android:id="@+id/userSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/userSex"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/userSexMale"
+        app:layout_constraintStart_toStartOf="@+id/registrationScreenHeader" />
+
+    <Button
+        android:id="@+id/choosePhotoButton"
+        android:layout_width="67dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/mainElements"
+        android:text="@string/choosePhoto"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/saveChangesButton"
+        android:layout_width="86dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="53dp"
+        android:background="@color/mainElements"
+        android:text="@string/saveChanges"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        app:layout_constraintBottom_toTopOf="@+id/footerRectangle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/footerRectangle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="660dp"
+        android:background="@color/mainElements"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topRectangle"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/registrationScreenHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="@string/viewUserMeScreenHeader"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appName" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registrationScreenHeader"
+        app:srcCompat="@drawable/view_user_me_example" />
+
+    <RadioButton
+        android:id="@+id/userSexMale"
+        android:layout_width="88dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/userSexMale"
+        android:textSize="11sp"
+        app:layout_constraintStart_toStartOf="@+id/registrationScreenHeader"
+        app:layout_constraintTop_toBottomOf="@+id/userDateBirth" />
+
+    <RadioButton
+        android:id="@+id/userSexFemale"
+        android:layout_width="88dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/userSexFemale"
+        android:textSize="11sp"
+        app:layout_constraintStart_toStartOf="@+id/registrationScreenHeader"
+        app:layout_constraintTop_toBottomOf="@+id/userSexMale" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,4 +8,13 @@
     <string name="userPasswordRepeat">Повторите пароль*</string>
     <string name="signUp">Зарегистрироваться</string>
     <string name="signIn">Войти</string>
+    <string name="registrationScreenHeader">Регистрация</string>
+    <string name="viewUserMeScreenHeader">Профиль пользователя</string>
+    <string name="userSexMale">Мужской</string>
+    <string name="userSexFemale">Женский</string>
+    <string name="userPatronymic">Отчество</string>
+    <string name="userDateBirth">Дата рождения</string>
+    <string name="userSex">Пол</string>
+    <string name="saveChanges">Сохранить изменения</string>
+    <string name="choosePhoto">Выбрать\n фото</string>
 </resources>

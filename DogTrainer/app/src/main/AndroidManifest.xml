@@ -9,8 +9,8 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/appName"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:theme="@style/Theme.AppCompat"
         android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat"
         tools:targetApi="31">
         <activity
             android:name=".AuthUserActivity"
@@ -26,6 +26,9 @@
             android:exported="false" />
         <activity
             android:name=".ViewUserMeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShowUserMeTrainingsActivity"
             android:exported="false" />
     </application>
 

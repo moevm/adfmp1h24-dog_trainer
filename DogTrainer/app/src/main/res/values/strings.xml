@@ -20,4 +20,6 @@
     <string name="signInScreenHeader">Вход</string>
     <string name="pin">Введите PIN-код</string>
     <string name="signUpAction">Регистрация</string>
+    <string name="userNewsScreenHeader">Тренировки пользователя</string>
+    <string name="addTraining">Добавить тренировку</string>
 </resources>

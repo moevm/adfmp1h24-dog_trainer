@@ -31,4 +31,5 @@
     <string name="allUsersTraining">Лента</string>
     <string name="usersList">Пользователи</string>
     <string name="logout">Выход</string>
+    <string name="AddTraining">Добавить тренировку</string>
 </resources>

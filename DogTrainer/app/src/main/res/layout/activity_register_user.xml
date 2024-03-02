@@ -173,7 +173,7 @@
         android:background="@color/mainElements"
         android:text="@string/signUp"
         android:textColor="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/addTrainingButton"
+        app:layout_constraintBottom_toTopOf="@+id/signInButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"

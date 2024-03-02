@@ -32,4 +32,8 @@
     <string name="usersList">Пользователи</string>
     <string name="logout">Выход</string>
     <string name="AddTraining">Добавить тренировку</string>
+    <string name="UserAchievementsTitle">Достижения пользователя</string>
+    <string name="UserMeAchievementsTitle">Мои достижения</string>
+    <string name="AchievementsName">Название</string>
+    <string name="AchievementsDescription">Описание</string>
 </resources>

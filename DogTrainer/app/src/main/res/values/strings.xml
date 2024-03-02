@@ -32,4 +32,15 @@
     <string name="usersList">Пользователи</string>
     <string name="logout">Выход</string>
     <string name="AddTraining">Добавить тренировку</string>
+    <string name="AddTrainingTitle">Добавление тренировки</string>
+    <string name="TrainingType">Тип тренировки</string>
+    <string name="newTrainingText">Изучение новой тренировки</string>
+    <string name="usefullTrainingText">Полезная информация</string>
+    <string name="ChoosePetText">Для какого животного тренировка?</string>
+    <string name="UploadMediafile">Загрузить медиафайл</string>
+    <string name="TrainingDescriptionText">Описание тренировки</string>
+    <string-array name="petOrCatList">
+        <item>Собака</item>
+        <item>Кошка</item>
+    </string-array>
 </resources>

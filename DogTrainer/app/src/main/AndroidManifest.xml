@@ -39,6 +39,12 @@
         <activity
             android:name=".UserTrainingActivity"
             android:exported="false" />
+        <activity
+            android:name=".UserAchievementsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserMeAchievementsActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

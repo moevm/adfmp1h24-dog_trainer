@@ -43,6 +43,9 @@ open class ToolbarActivity : AppCompatActivity() {
                     true
                 }
                 R.id.userAchievements -> {
+                    val intent = Intent(this@ToolbarActivity, UserMeAchievementsActivity ::class.java)
+                    startActivity(intent)
+                    finish()
                     true
                 }
                 R.id.commandDirectory -> {
@@ -58,6 +61,9 @@ open class ToolbarActivity : AppCompatActivity() {
                     true
                 }
                 R.id.logout -> {
+                    val intent = Intent(this@ToolbarActivity, AuthUserActivity ::class.java)
+                    startActivity(intent)
+                    finish()
                     true
                 }
                 else -> false

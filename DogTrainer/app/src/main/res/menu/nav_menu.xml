@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navMenu"
+            android:icon="@drawable/menu_icon"
+            android:title="@string/menu" />
+        <item
+            android:id="@+id/userMe"
+            android:title="@string/userMe" />
+        <item
+            android:id="@+id/userPets"
+            android:title="@string/userPets" />
+        <item
+            android:id="@+id/userTrainings"
+            android:title="@string/userTrainings" />
+        <item
+            android:id="@+id/userAchievements"
+            android:title="@string/userAchievements" />
+        <item
+            android:id="@+id/commandDirectory"
+            android:title="@string/commandDirectory" />
+        <item
+            android:id="@+id/allUsersTraining"
+            android:title="@string/allUsersTraining" />
+        <item
+            android:id="@+id/usersList"
+            android:title="@string/usersList" />
+        <item
+            android:id="@+id/logout"
+            android:title="@string/logout" />
+    </group>
+</menu>

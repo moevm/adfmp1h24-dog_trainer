@@ -39,6 +39,9 @@
         <activity
             android:name=".ViewUserMeActivity"
             android:exported="false" />
+        <activity
+            android:name=".UserTrainingActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

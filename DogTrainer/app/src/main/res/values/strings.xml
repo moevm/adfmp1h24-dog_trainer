@@ -20,4 +20,8 @@
     <string name="signInScreenHeader">Вход</string>
     <string name="pin">Введите PIN-код</string>
     <string name="signUpAction">Регистрация</string>
+    <string name="addCommandTitle">Добавление команды</string>
+    <string name="CommandName">Название команды</string>
+    <string name="CommandDescription">Описание команды</string>
+    <string name="addCommandButton">Добавить команду</string>
 </resources>

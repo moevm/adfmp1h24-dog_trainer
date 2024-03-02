@@ -41,7 +41,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginBottom="100dp"
         android:autoSizeTextType="uniform"
-        android:text="Создание питомца"
+        android:text="@string/AddPetTitle"
         android:textColor="#020202"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -56,7 +56,7 @@
         android:layout_marginStart="25dp"
         android:layout_marginTop="20dp"
         android:autoSizeTextType="uniform"
-        android:text="Кличка"
+        android:text="@string/PetNameText"
         android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/addPetText" />
@@ -68,7 +68,7 @@
         android:layout_marginTop="25dp"
         android:layout_marginEnd="35dp"
         android:autoSizeTextType="uniform"
-        android:text="Дата рождения"
+        android:text="@string/DatePenText"
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/addPetText" />
@@ -113,14 +113,14 @@
             android:id="@+id/radioButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Кобель"
+            android:text="@string/MalePet"
             android:textColor="#000000" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Сука"
+            android:text="@string/FemalePet"
             android:textColor="#000000" />
     </RadioGroup>
 
@@ -131,7 +131,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginEnd="90dp"
         android:autoSizeTextType="uniform"
-        android:text="Пол"
+        android:text="@string/SexText"
         android:textColor="#0B0B0B"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
@@ -143,7 +143,7 @@
         android:layout_marginStart="25dp"
         android:layout_marginTop="15dp"
         android:autoSizeTextType="uniform"
-        android:text="Порода"
+        android:text="@string/BreedText"
         android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/enterPetName" />
@@ -167,7 +167,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="430dp"
-        android:text="Создать питомца"
+        android:text="@string/CreatePet"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

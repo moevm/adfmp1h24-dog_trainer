@@ -21,6 +21,14 @@
     <string name="pin">Введите PIN-код</string>
     <string name="signUpAction">Регистрация</string>
     <string name="AddTraining">Добавить тренировку</string>
+    <string name="AddPetTitle">Создание питомца</string>
+    <string name="PetNameText">Кличка</string>
+    <string name="DatePenText">Дата рождения</string>
+    <string name="MalePet">Кобель</string>
+    <string name="FemalePet">Сука</string>
+    <string name="SexText">Пол</string>
+    <string name="BreedText">Порода</string>
+    <string name="CreatePet">Создать питомца</string>
     <string-array name="breedLists">
         <item>Доберман</item>
         <item>Шнауцер</item>

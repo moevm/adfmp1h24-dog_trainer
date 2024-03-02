@@ -1,5 +1,7 @@
 package application_development_for_mobile_platforms.dog_trainer
 
+import android.content.Intent
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.widget.Toolbar
@@ -42,6 +44,9 @@ open class ToolbarActivity : AppCompatActivity() {
                     true
                 }
                 R.id.allUsersTraining -> {
+                    val intent = Intent(this@ToolbarActivity, AllUsersTrainingActivity ::class.java)
+                    startActivity(intent)
+                    finish()
                     true
                 }
                 R.id.usersList -> {

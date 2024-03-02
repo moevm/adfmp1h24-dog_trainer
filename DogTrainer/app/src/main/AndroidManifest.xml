@@ -13,9 +13,6 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
         <activity
-            android:name=".UserTrainingActivity"
-            android:exported="false" />
-        <activity
             android:name=".AuthUserActivity"
             android:exported="true">
             <intent-filter>
@@ -35,6 +32,9 @@
             android:exported="false" />
         <activity
             android:name=".ViewUserMeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserTrainingActivity"
             android:exported="false" />
     </application>
 

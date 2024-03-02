@@ -108,7 +108,7 @@
                 android:background="#FFFFFF">
 
                 <TextView
-                    android:id="@+id/userNameAndText1"
+                    android:id="@+id/userNameAndText"
                     android:layout_width="247dp"
                     android:layout_height="31dp"
                     android:layout_marginStart="5dp"
@@ -125,11 +125,11 @@
                     android:layout_marginTop="10dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/userNameAndText1"
+                    app:layout_constraintTop_toBottomOf="@+id/userNameAndText"
                     app:srcCompat="@drawable/pet_dog2_training" />
 
                 <TextView
-                    android:id="@+id/userTextAboutTraining1"
+                    android:id="@+id/userTextAboutTraining"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
@@ -159,7 +159,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
-                    android:id="@+id/dogTrainingImage"
+                    android:id="@+id/dogTrainingImage1"
                     android:layout_width="150dp"
                     android:layout_height="148dp"
                     android:layout_marginTop="10dp"
@@ -179,7 +179,7 @@
                     android:textColor="#000000"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/dogTrainingImage" />
+                    app:layout_constraintTop_toBottomOf="@+id/dogTrainingImage1" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -188,7 +188,7 @@
                 android:background="#FFFFFF">
 
                 <TextView
-                    android:id="@+id/userNameAndText1"
+                    android:id="@+id/userNameAndText2"
                     android:layout_width="247dp"
                     android:layout_height="31dp"
                     android:layout_marginStart="5dp"
@@ -199,7 +199,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/userTextAboutTraining1"
+                    android:id="@+id/userTextAboutTraining2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
@@ -218,7 +218,7 @@
                     android:layout_marginTop="10dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/userNameAndText1"
+                    app:layout_constraintTop_toBottomOf="@+id/userNameAndText2"
                     app:srcCompat="@drawable/pet_cat_trainning_pic" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 

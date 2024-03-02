@@ -20,4 +20,11 @@
     <string name="signInScreenHeader">Вход</string>
     <string name="pin">Введите PIN-код</string>
     <string name="signUpAction">Регистрация</string>
+    <string name="AddTraining">Добавить тренировку</string>
+    <string-array name="breedLists">
+        <item>Доберман</item>
+        <item>Шнауцер</item>
+        <item>Пудель</item>
+        <item>Метис</item>
+    </string-array>
 </resources>

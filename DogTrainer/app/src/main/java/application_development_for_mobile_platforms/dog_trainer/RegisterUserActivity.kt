@@ -16,7 +16,7 @@ class RegisterUserActivity : AppCompatActivity() {
     }
 
     private fun addListenerToSignInButton() {
-        signInButton = findViewById(R.id.singInButton)
+        signInButton = findViewById(R.id.addTrainingButton)
         signInButton.setOnClickListener {
             val intent = Intent(this@RegisterUserActivity, AuthUserActivity ::class.java)
             startActivity(intent)

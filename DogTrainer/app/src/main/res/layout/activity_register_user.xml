@@ -173,7 +173,7 @@
         android:background="@color/mainElements"
         android:text="@string/signUp"
         android:textColor="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/singInButton"
+        app:layout_constraintBottom_toTopOf="@+id/signInButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
@@ -181,7 +181,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/singInButton"
+        android:id="@+id/signInButton"
         android:layout_width="93dp"
         android:layout_height="49dp"
         android:layout_marginBottom="32dp"

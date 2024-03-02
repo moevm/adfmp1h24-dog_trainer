@@ -1,7 +1,6 @@
 package application_development_for_mobile_platforms.dog_trainer
 
 import android.content.Intent
-import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.widget.Toolbar
@@ -29,12 +28,18 @@ open class ToolbarActivity : AppCompatActivity() {
             drawerLayout.closeDrawers()
             when (menuItem.itemId) {
                 R.id.userMe -> {
+                    val intent = Intent(this@ToolbarActivity, ViewUserMeActivity ::class.java)
+                    startActivity(intent)
+                    finish()
                     true
                 }
                 R.id.userPets -> {
                     true
                 }
                 R.id.userTrainings -> {
+                    val intent = Intent(this@ToolbarActivity, UserTrainingActivity ::class.java)
+                    startActivity(intent)
+                    finish()
                     true
                 }
                 R.id.userAchievements -> {

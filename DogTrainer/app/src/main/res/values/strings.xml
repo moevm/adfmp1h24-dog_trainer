@@ -47,4 +47,14 @@
     <string name="UserMeAchievementsTitle">Мои достижения</string>
     <string name="AchievementsName">Название</string>
     <string name="AchievementsDescription">Описание</string>
+    <string name="guestName">Екатерина</string>
+    <string name="guestSername">Курочкина</string>
+    <string name="guestPatronymic">Александровна</string>
+    <string name="guestDate">10.07.2002</string>
+    <string name="guestSex">Женский</string>
+    <string name="guestUserNameTitle">Имя</string>
+    <string name="guestButtonToUsersList">К списку пользователей</string>
+    <string name="guestButtonUsersPetsList">Питомцы пользователя</string>
+    <string name="guestButtonUsersAchievementsList">Достижения пользователя</string>
+    <string name="guestButtonUsersTrainingList">Тренировки пользователя</string>
 </resources>

@@ -110,7 +110,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/addTrainingButton"
+        android:id="@+id/signInButton"
         android:layout_width="93dp"
         android:layout_height="49dp"
         android:layout_marginBottom="52dp"

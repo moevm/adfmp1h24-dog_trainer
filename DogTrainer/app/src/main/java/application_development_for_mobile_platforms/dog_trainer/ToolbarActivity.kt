@@ -28,6 +28,9 @@ open class ToolbarActivity : AppCompatActivity() {
             drawerLayout.closeDrawers()
             when (menuItem.itemId) {
                 R.id.userMe -> {
+                    val intent = Intent(this@ToolbarActivity, ViewUserMeActivity ::class.java)
+                    startActivity(intent)
+                    finish()
                     true
                 }
                 R.id.userPets -> {

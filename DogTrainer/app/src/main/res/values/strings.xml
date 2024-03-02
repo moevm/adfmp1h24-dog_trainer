@@ -32,4 +32,7 @@
     <string name="usersList">Пользователи</string>
     <string name="logout">Выход</string>
     <string name="AddTraining">Добавить тренировку</string>
+    <string name="commandScreenHeader">Команда \'Служить\'</string>
+    <string name="notViewed">Не изучено</string>
+    <string name="commandCatalogScreenHeader">Каталог команд для изучения</string>
 </resources>

@@ -33,6 +33,12 @@
         <activity
             android:name=".ViewUserMeActivity"
             android:exported="false" />
+        <activity
+            android:name=".CommandActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CatalogCommandActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

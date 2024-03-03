@@ -49,6 +49,9 @@ open class ToolbarActivity : AppCompatActivity() {
                     true
                 }
                 R.id.commandDirectory -> {
+                    val intent = Intent(this@ToolbarActivity, CatalogCommandActivity ::class.java)
+                    startActivity(intent)
+                    finish()
                     true
                 }
                 R.id.allUsersTraining -> {

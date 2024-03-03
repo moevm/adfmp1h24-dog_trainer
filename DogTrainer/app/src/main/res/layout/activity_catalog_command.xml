@@ -66,18 +66,16 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <TextView
-        android:id="@+id/textCatalogCommand"
-        android:layout_width="267dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="136dp"
+        android:id="@+id/signInScreenHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
         android:text="@string/commandCatalogScreenHeader"
+        android:textSize="20sp"
         android:textColor="@color/black"
-        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.472"
-        app:layout_constraintStart_toEndOf="@+id/appLogo"
-        app:layout_constraintTop_toTopOf="@+id/topRectangle" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appName" />
 
     <ImageView
         android:id="@+id/near"

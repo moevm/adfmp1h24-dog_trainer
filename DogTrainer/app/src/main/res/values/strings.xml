@@ -70,5 +70,6 @@
         <item>Пудель</item>
         <item>Метис</item>
     </string-array>
+    <string name="changeAvatar">Изменить аватар</string>
 
 </resources>

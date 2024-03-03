@@ -68,54 +68,29 @@
         app:layout_constraintTop_toBottomOf="@+id/topRectangle"
         app:layout_constraintVertical_bias="1.0" />
 
-    <View
-        android:id="@+id/topRectangle"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_alignParentTop="true"
-        android:background="@color/mainElements"
-        android:visibility="visible"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <View
-        android:id="@+id/footerRectangle"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="660dp"
-        android:background="@color/mainElements"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/topRectangle"
-        app:layout_constraintVertical_bias="1.0" />
-
     <TextView
         android:id="@+id/addPetText"
-        android:layout_width="253dp"
-        android:layout_height="59dp"
+        android:layout_width="192dp"
+        android:layout_height="39dp"
         android:layout_marginTop="40dp"
         android:layout_marginBottom="100dp"
         android:autoSizeTextType="uniform"
-        android:text="@string/ProfilePet"
+        android:text="@string/petProfile"
         android:textColor="#020202"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.57"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.056" />
+        app:layout_constraintVertical_bias="0.128" />
 
     <TextView
         android:id="@+id/penNameText"
-        android:layout_width="103dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="71dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="24dp"
         android:autoSizeTextType="uniform"
         android:text="@string/PetNameText"
         android:textColor="@color/black"
@@ -124,10 +99,10 @@
 
     <TextView
         android:id="@+id/datePetText"
-        android:layout_width="151dp"
-        android:layout_height="28dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginEnd="35dp"
+        android:layout_width="98dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="40dp"
         android:autoSizeTextType="uniform"
         android:text="@string/DatePenText"
         android:textColor="@color/black"
@@ -136,10 +111,10 @@
 
     <EditText
         android:id="@+id/enterPetName"
-        android:layout_width="160dp"
-        android:layout_height="39dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="10dp"
+        android:layout_width="127dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="8dp"
         android:background="#FFFFFF"
         android:backgroundTint="#FFFFFF"
         android:ems="10"
@@ -150,10 +125,10 @@
 
     <EditText
         android:id="@+id/editTextDate"
-        android:layout_width="188dp"
-        android:layout_height="38dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="20dp"
+        android:layout_width="127dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
         android:background="#FFFFFF"
         android:backgroundTint="#FFFFFF"
         android:ems="10"
@@ -163,34 +138,34 @@
         app:layout_constraintTop_toBottomOf="@+id/datePetText" />
 
     <RadioGroup
-        android:layout_width="167dp"
-        android:layout_height="63dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="15dp"
+        android:layout_width="127dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sexText">
 
         <RadioButton
             android:id="@+id/radioButton"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="20dp"
             android:text="@string/MalePet"
             android:textColor="@color/black" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="20dp"
             android:text="@string/FemalePet"
             android:textColor="@color/black" />
     </RadioGroup>
 
     <TextView
         android:id="@+id/sexText"
-        android:layout_width="61dp"
-        android:layout_height="29dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="90dp"
+        android:layout_width="71dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="68dp"
         android:autoSizeTextType="uniform"
         android:text="@string/SexText"
         android:textColor="#0B0B0B"
@@ -199,10 +174,10 @@
 
     <TextView
         android:id="@+id/breedPetText"
-        android:layout_width="85dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="15dp"
+        android:layout_width="71dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="8dp"
         android:autoSizeTextType="uniform"
         android:text="@string/BreedText"
         android:textColor="@color/black"
@@ -211,31 +186,247 @@
 
     <Spinner
         android:id="@+id/spinner"
-        android:layout_width="101dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="10dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/breedPetText"
-        android:entries="@array/breedLists"
+        android:layout_width="127dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="8dp"
         android:background="@color/mainElements"
-        android:textColor="@color/black"
+        android:entries="@array/breedLists"
         android:outlineAmbientShadowColor="@color/black"
-        android:outlineSpotShadowColor="@color/black"/>
+        android:outlineSpotShadowColor="@color/black"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/breedPetText" />
 
     <Button
         android:id="@+id/addPetButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="193dp"
+        android:layout_height="44dp"
         android:layout_marginTop="430dp"
-        android:text="@string/CreatePet"
+        android:background="@color/mainElements"
+        android:text="@string/addCommandButton"
+        android:textColor="@color/white"
+        android:textSize="13sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.926"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/topRectangle"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.688" />
+
+    <Button
+        android:id="@+id/changeAvatar"
+        android:layout_width="117dp"
+        android:layout_height="32dp"
         android:background="@color/mainElements"
-        android:textColor="@color/white"/>
+        android:text="@string/changeAvatar"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.420" />
+
+    <Button
+        android:id="@+id/saveChanges"
+        android:layout_width="222dp"
+        android:layout_height="32dp"
+        android:background="@color/mainElements"
+        android:text="@string/saveChanges"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.420" />
+
+    <TextView
+        android:id="@+id/skillsPet"
+        android:layout_width="127dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/petSkills"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/changeAvatar" />
+
+    <TableLayout
+        android:id="@+id/skillsTable"
+        android:layout_width="391dp"
+        android:layout_height="225dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/skillsPet">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="42dp">
+
+            <TextView
+                android:id="@+id/commandNameText"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:autoSizeTextType="uniform"
+                android:background="#FFFFFF"
+                android:text="@string/AchievementsName"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/commandDescriptionText"
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:autoSizeTextType="uniform"
+                android:background="#FFFFFF"
+                android:text="@string/AchievementsDescription"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/actionsText"
+                android:layout_width="105dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="-1dp"
+                android:layout_marginBottom="2dp"
+                android:autoSizeTextType="uniform"
+                android:background="#FFFFFF"
+                android:text="@string/actions"
+                android:textAlignment="center"
+                android:textColor="#000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="80dp"
+            android:layout_height="100dp">
+
+            <TextView
+                android:id="@+id/firstCommand"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:autoSizeTextType="none"
+                android:background="#FFFFFF"
+                android:text="@string/sit"
+
+                android:textColor="#000000" />
+
+            <ScrollView
+                android:layout_width="200dp"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:id="@+id/firstDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:autoSizeTextType="none"
+                    android:background="#FFFFFF"
+                    android:text="@string/sitDescription"
+                    android:textColor="#000000" />
+
+            </ScrollView>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="-1dp"
+                android:layout_marginBottom="2dp"
+                android:background="#FFFFFF">
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center|center_horizontal"
+                    android:background="@color/mainElements"
+                    android:text="@string/delete"
+                    android:textColor="@color/white">
+
+                </Button>
+            </FrameLayout>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/secondCommand"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginBottom="2dp"
+                android:autoSizeTextType="none"
+                android:background="#FFFFFF"
+                android:text="@string/lie"
+                android:textColor="#000000" />
+
+            <ScrollView
+                android:layout_width="200dp"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:id="@+id/secondDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="2dp"
+                    android:autoSizeTextType="none"
+                    android:background="#FFFFFF"
+                    android:text="@string/lieDescription"
+                    android:textColor="#000000" />
+            </ScrollView>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="-1dp"
+                android:layout_marginBottom="2dp"
+                android:background="#FFFFFF">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center|center_horizontal"
+                    android:background="@color/mainElements"
+                    android:text="@string/delete"
+                    android:textColor="@color/white">
+                </Button>
+            </FrameLayout>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="129dp"
+        android:layout_height="143dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.255"
+        app:srcCompat="@drawable/lie" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,6 +20,43 @@
     <string name="signInScreenHeader">Вход</string>
     <string name="pin">Введите PIN-код</string>
     <string name="signUpAction">Регистрация</string>
+    <string name="open">Открыть</string>
+    <string name="close">Закрыть</string>
+    <string name="menu">Меню</string>
+    <string name="userMe">Мой профиль</string>
+    <string name="userPets">Мои питомцы</string>
+    <string name="userTrainings">Мои тренировки</string>
+    <string name="userAchievements">Мои достижения</string>
+    <string name="commandDirectory">Каталог команд</string>
+    <string name="allUsersTraining">Лента</string>
+    <string name="usersList">Пользователи</string>
+    <string name="logout">Выход</string>
+    <string name="AddTraining">Добавить тренировку</string>
+    <string name="AddTrainingTitle">Добавление тренировки</string>
+    <string name="TrainingType">Тип тренировки</string>
+    <string name="newTrainingText">Изучение новой тренировки</string>
+    <string name="usefullTrainingText">Полезная информация</string>
+    <string name="ChoosePetText">Для какого животного тренировка?</string>
+    <string name="UploadMediafile">Загрузить медиафайл</string>
+    <string name="TrainingDescriptionText">Описание тренировки</string>
+    <string-array name="petOrCatList">
+        <item>Собака</item>
+        <item>Кошка</item>
+    </string-array>
+    <string name="UserAchievementsTitle">Достижения пользователя</string>
+    <string name="UserMeAchievementsTitle">Мои достижения</string>
+    <string name="AchievementsName">Название</string>
+    <string name="AchievementsDescription">Описание</string>
+    <string name="guestName">Екатерина</string>
+    <string name="guestSername">Курочкина</string>
+    <string name="guestPatronymic">Александровна</string>
+    <string name="guestDate">10.07.2002</string>
+    <string name="guestSex">Женский</string>
+    <string name="guestUserNameTitle">Имя</string>
+    <string name="guestButtonToUsersList">К списку пользователей</string>
+    <string name="guestButtonUsersPetsList">Питомцы пользователя</string>
+    <string name="guestButtonUsersAchievementsList">Достижения пользователя</string>
+    <string name="guestButtonUsersTrainingList">Тренировки пользователя</string>
     <string name="notViewed">Не изучено</string>
     <string name="commandCatalogScreenHeader">Каталог команд для изучения</string>
 </resources>

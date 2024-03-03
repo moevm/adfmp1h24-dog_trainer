@@ -9,9 +9,12 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/appName"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:theme="@style/Theme.AppCompat"
         android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
+        <activity
+            android:name=".ViewUserGuestModeActivity"
+            android:exported="false" />
         <activity
             android:name=".AuthUserActivity"
             android:exported="true">
@@ -22,10 +25,28 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".ToolbarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AllUsersTrainingActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegisterUserActivity"
             android:exported="false" />
         <activity
             android:name=".ViewUserMeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserTrainingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserAchievementsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserMeAchievementsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FormToAddTrainingActivity"
             android:exported="false" />
     </application>
 

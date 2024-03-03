@@ -84,7 +84,6 @@
         android:text="@string/commandCatalogScreenHeader"
         android:textColor="@color/black"
         android:textSize="20sp"
-        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"

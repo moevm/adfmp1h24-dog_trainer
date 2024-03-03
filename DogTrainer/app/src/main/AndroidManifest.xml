@@ -61,6 +61,12 @@
             android:name=".ViewPetProfileGuestActivity"
             android:exported="false" />
         <activity
+            android:name=".FormToAddPetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FormToAddCommandActivity"
+            android:exported="false" />
+        <activity
             android:name=".ViewListPetsActivity"
             android:exported="false" />
         <activity

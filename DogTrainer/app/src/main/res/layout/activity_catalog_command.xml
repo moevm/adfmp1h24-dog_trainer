@@ -71,7 +71,7 @@
         android:layout_height="35dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="136dp"
-        android:text="Каталог команд для изучения"
+        android:text="@string/commandCatalogScreenHeader"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -177,7 +177,7 @@
         android:layout_height="28dp"
         android:layout_marginStart="15dp"
         android:layout_marginTop="5dp"
-        android:text="Не изучено"
+        android:text="@string/notViewed"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/near" />
@@ -188,7 +188,7 @@
         android:layout_height="28dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="103dp"
-        android:text="Не изучено"
+        android:text="@string/notViewed"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/find" />
@@ -199,7 +199,7 @@
         android:layout_height="28dp"
         android:layout_marginEnd="103dp"
         android:layout_marginBottom="250dp"
-        android:text="Не изучено"
+        android:text="@string/notViewed"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -210,7 +210,7 @@
         android:layout_height="28dp"
         android:layout_marginEnd="103dp"
         android:layout_marginBottom="95dp"
-        android:text="Не изучено"
+        android:text="@string/notViewed"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -221,7 +221,7 @@
         android:layout_height="28dp"
         android:layout_marginStart="15dp"
         android:layout_marginBottom="95dp"
-        android:text="Не изучено"
+        android:text="@string/notViewed"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -232,7 +232,7 @@
         android:layout_height="28dp"
         android:layout_marginStart="15dp"
         android:layout_marginBottom="253dp"
-        android:text="Не изучено"
+        android:text="@string/notViewed"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

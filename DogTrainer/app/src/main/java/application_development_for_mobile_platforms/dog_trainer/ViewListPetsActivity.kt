@@ -7,12 +7,14 @@ import android.widget.Button
 class ViewListPetsActivity : ToolbarActivity() {
     private lateinit var viewFirstPet: Button
     private lateinit var viewSecondPet: Button
+    private lateinit var addPet: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_view_list_pets)
 
         initToolbar()
+        addListenerAddPetButton()
         addListenerViewFirstPetButton()
         addListenerViewSecondPetButton()
     }
@@ -30,6 +32,15 @@ class ViewListPetsActivity : ToolbarActivity() {
         viewSecondPet = findViewById(R.id.viewSecondPet)
         viewSecondPet.setOnClickListener {
             val intent = Intent(this@ViewListPetsActivity, EditPetProfileActivity ::class.java)
+            startActivity(intent)
+            finish()
+        }
+    }
+
+    private fun addListenerAddPetButton() {
+        addPet = findViewById(R.id.addPetButton)
+        addPet.setOnClickListener {
+            val intent = Intent(this@ViewListPetsActivity, FormToAddPetActivity ::class.java)
             startActivity(intent)
             finish()
         }

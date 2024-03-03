@@ -48,6 +48,9 @@
         <activity
             android:name=".FormToAddTrainingActivity"
             android:exported="false" />
+        <activity
+            android:name=".CatalogCommandActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

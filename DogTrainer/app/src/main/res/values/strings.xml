@@ -33,6 +33,7 @@
     <string name="logout">Выход</string>
     <string name="AddTraining">Добавить тренировку</string>
     <string name="commandScreenHeader">Команда \'Служить\'</string>
+    <string name="descriptionCommandServe">Как научить собаку команде \'Служить\' или \'Зайка\'? Очень просто: скажите \'Сидеть\' и поднесите к ее носу лакомство. Медленно поднимите руку с лакомством чуть выше носа собаки, а затем проведите рукой немного назад за голову животного. Если питомец встает, когда тянется за лакомством, поправьте его.</string>
     <string name="notViewed">Не изучено</string>
     <string name="commandCatalogScreenHeader">Каталог команд для изучения</string>
 </resources>

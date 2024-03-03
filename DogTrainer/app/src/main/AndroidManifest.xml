@@ -54,6 +54,12 @@
         <activity
             android:name=".ViewUserGuestModeActivity"
             android:exported="false" />
+        <activity
+            android:name=".EditPetProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewPetProfileGuestActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

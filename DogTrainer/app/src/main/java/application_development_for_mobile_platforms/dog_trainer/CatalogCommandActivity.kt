@@ -10,7 +10,6 @@ class CatalogCommandActivity : ToolbarActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_catalog_command)
-
         initToolbar()
     }
 }

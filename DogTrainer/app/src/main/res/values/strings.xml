@@ -57,4 +57,18 @@
     <string name="guestButtonUsersPetsList">Питомцы пользователя</string>
     <string name="guestButtonUsersAchievementsList">Достижения пользователя</string>
     <string name="guestButtonUsersTrainingList">Тренировки пользователя</string>
+    <string name="PetNameText">Кличка</string>
+    <string name="DatePenText">Дата рождения</string>
+    <string name="MalePet">Кобель</string>
+    <string name="FemalePet">Сука</string>
+    <string name="SexText">Пол</string>
+    <string name="BreedText">Порода</string>
+    <string name="CreatePet">Создать питомца</string>
+    <string-array name="breedLists">
+        <item>Доберман</item>
+        <item>Шнауцер</item>
+        <item>Пудель</item>
+        <item>Метис</item>
+    </string-array>
+
 </resources>

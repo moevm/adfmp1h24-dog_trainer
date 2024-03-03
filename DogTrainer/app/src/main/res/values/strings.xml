@@ -81,12 +81,16 @@
     </string-array>
     <string name="changeAvatar">Изменить аватар</string>
     <string name="petProfile">Профиль питомца</string>
+    <string name="petsList">Список питомцев пользователя</string>
     <string name="petSkills">Умения питомца</string>
     <string name="delete">Удалить</string>
     <string name="edit">Редактировать питомца</string>
+    <string name="addPet">Добавить питомца</string>
     <string name="actions">Действия</string>
     <string name="sit">Сидеть</string>
     <string name="lie">Лежать</string>
     <string name="sitDescription">Нужно встать справа от собаки и правой рукой держать её за поводок возле ошейника. Затем следует произнести: «Сидеть», а потом надавить питомцу на заднюю часть тела, одновременно натягивая поводок правой рукой.</string>
     <string name="lieDescription">Жест для команды “Лежать” выглядит следующим образом: правую руку поднимаете горизонтально, ладонью вперед, и опускаете к правому бедру. Обучая собаку распознавать жест, постепенно увеличивайте дистанцию до 2-3 метров и выдержку до 7 секунд, больше пока не нужно.</string>
+    <string name="idPet">ID</string>
+    <string name="look">Посмотреть</string>
 </resources>

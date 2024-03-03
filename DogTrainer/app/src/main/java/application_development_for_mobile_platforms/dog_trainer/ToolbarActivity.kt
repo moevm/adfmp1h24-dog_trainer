@@ -34,6 +34,9 @@ open class ToolbarActivity : AppCompatActivity() {
                     true
                 }
                 R.id.userPets -> {
+                    val intent = Intent(this@ToolbarActivity, ViewListPetsActivity ::class.java)
+                    startActivity(intent)
+                    finish()
                     true
                 }
                 R.id.userTrainings -> {

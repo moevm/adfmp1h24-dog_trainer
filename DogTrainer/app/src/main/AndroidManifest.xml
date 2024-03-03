@@ -60,6 +60,12 @@
         <activity
             android:name=".ViewPetProfileGuestActivity"
             android:exported="false" />
+        <activity
+            android:name=".ViewListPetsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewListPetsGuestActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

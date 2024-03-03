@@ -207,7 +207,7 @@
                         />
 
                     <Button
-                        android:id="@+id/button1"
+                        android:id="@+id/viewFirstPet"
                         android:layout_width="70dp"
                         android:layout_height="18dp"
                         android:background="@color/mainElements"
@@ -275,7 +275,7 @@
                         android:layout_height="25dp" />
 
                     <Button
-                        android:id="@+id/button3"
+                        android:id="@+id/viewSecondPet"
                         android:layout_width="70dp"
                         android:layout_height="18dp"
                         android:background="@color/mainElements"

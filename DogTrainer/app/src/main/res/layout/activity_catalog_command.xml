@@ -100,6 +100,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/signInScreenHeader"
         app:layout_constraintVertical_bias="0.976"
+        android:clickable="true"
+        android:onClick="onImageClick"
         app:srcCompat="@drawable/near" />
 
     <androidx.constraintlayout.widget.Guideline
@@ -120,6 +122,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/signInScreenHeader"
         app:layout_constraintVertical_bias="0.976"
+        android:clickable="true"
+        android:onClick="onImageClick"
         app:srcCompat="@drawable/find" />
 
     <ImageView
@@ -133,6 +137,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976"
+        android:clickable="true"
+        android:onClick="onImageClick"
         app:srcCompat="@drawable/sit" />
 
     <ImageView
@@ -146,6 +152,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
+        android:clickable="true"
+        android:onClick="onImageClick"
         app:srcCompat="@drawable/to_me" />
 
     <ImageView
@@ -159,6 +167,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.944"
+        android:clickable="true"
+        android:onClick="onImageClick"
         app:srcCompat="@drawable/jump" />
 
     <ImageView
@@ -172,6 +182,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
+        android:clickable="true"
+        android:onClick="onImageClick"
         app:srcCompat="@drawable/stop" />
 
     <androidx.constraintlayout.widget.Guideline

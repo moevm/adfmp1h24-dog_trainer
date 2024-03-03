@@ -63,6 +63,9 @@
         <activity
             android:name=".FormToAddPetActivity"
             android:exported="false" />
+        <activity
+            android:name=".FormToAddCommandActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

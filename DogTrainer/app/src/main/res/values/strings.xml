@@ -36,4 +36,57 @@
     <string name="CommandName">Название команды</string>
     <string name="CommandDescription">Описание команды</string>
     <string name="addCommandButton">Добавить команду</string>
+    <string name="commandScreenHeader">Команда \'Служить\'</string>
+    <string name="descriptionCommandServe">Как научить собаку команде \'Служить\' или \'Зайка\'? Очень просто: скажите \'Сидеть\' и поднесите к ее носу лакомство. Медленно поднимите руку с лакомством чуть выше носа собаки, а затем проведите рукой немного назад за голову животного. Если питомец встает, когда тянется за лакомством, поправьте его.</string>
+    <string name="notViewed">Не изучено</string>
+    <string name="commandCatalogScreenHeader">Каталог команд для изучения</string>
+    <string name="AddTrainingTitle">Добавление тренировки</string>
+    <string name="TrainingType">Тип тренировки</string>
+    <string name="newTrainingText">Изучение новой тренировки</string>
+    <string name="usefullTrainingText">Полезная информация</string>
+    <string name="ChoosePetText">Для какого животного тренировка?</string>
+    <string name="AddPetTitle">Добавить питомца</string>
+    <string name="UploadMediafile">Загрузить медиафайл</string>
+    <string name="TrainingDescriptionText">Описание тренировки</string>
+    <string-array name="petOrCatList">
+        <item>Собака</item>
+        <item>Кошка</item>
+    </string-array>
+    <string name="UserAchievementsTitle">Достижения пользователя</string>
+    <string name="UserMeAchievementsTitle">Мои достижения</string>
+    <string name="AchievementsName">Название</string>
+    <string name="AchievementsDescription">Описание</string>
+    <string name="guestName">Екатерина</string>
+    <string name="guestSername">Курочкина</string>
+    <string name="guestPatronymic">Александровна</string>
+    <string name="guestDate">10.07.2002</string>
+    <string name="guestSex">Женский</string>
+    <string name="guestUserNameTitle">Имя</string>
+    <string name="guestButtonToUsersList">К списку пользователей</string>
+    <string name="guestButtonUsersPetsList">Питомцы пользователя</string>
+    <string name="guestButtonUsersAchievementsList">Достижения пользователя</string>
+    <string name="guestButtonUsersTrainingList">Тренировки пользователя</string>
+    <string name="PetNameText">Кличка</string>
+    <string name="DatePenText">Дата рождения</string>
+    <string name="MalePet">Кобель</string>
+    <string name="FemalePet">Сука</string>
+    <string name="SexText">Пол</string>
+    <string name="BreedText">Порода</string>
+    <string name="CreatePet">Создать питомца</string>
+    <string-array name="breedLists">
+        <item>Доберман</item>
+        <item>Шнауцер</item>
+        <item>Пудель</item>
+        <item>Метис</item>
+    </string-array>
+    <string name="changeAvatar">Изменить аватар</string>
+    <string name="petProfile">Профиль питомца</string>
+    <string name="petSkills">Умения питомца</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Редактировать питомца</string>
+    <string name="actions">Действия</string>
+    <string name="sit">Сидеть</string>
+    <string name="lie">Лежать</string>
+    <string name="sitDescription">Нужно встать справа от собаки и правой рукой держать её за поводок возле ошейника. Затем следует произнести: «Сидеть», а потом надавить питомцу на заднюю часть тела, одновременно натягивая поводок правой рукой.</string>
+    <string name="lieDescription">Жест для команды “Лежать” выглядит следующим образом: правую руку поднимаете горизонтально, ладонью вперед, и опускаете к правому бедру. Обучая собаку распознавать жест, постепенно увеличивайте дистанцию до 2-3 метров и выдержку до 7 секунд, больше пока не нужно.</string>
 </resources>

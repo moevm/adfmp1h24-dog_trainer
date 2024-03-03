@@ -20,4 +20,6 @@
     <string name="signInScreenHeader">Вход</string>
     <string name="pin">Введите PIN-код</string>
     <string name="signUpAction">Регистрация</string>
+    <string name="notViewed">Не изучено</string>
+    <string name="commandCatalogScreenHeader">Каталог команд для изучения</string>
 </resources>

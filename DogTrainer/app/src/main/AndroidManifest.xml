@@ -13,9 +13,6 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
         <activity
-            android:name=".ViewUserGuestModeActivity"
-            android:exported="false" />
-        <activity
             android:name=".AuthUserActivity"
             android:exported="true">
             <intent-filter>
@@ -50,6 +47,12 @@
             android:exported="false" />
         <activity
             android:name=".CatalogCommandActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CommandActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewUserGuestModeActivity"
             android:exported="false" />
     </application>
 

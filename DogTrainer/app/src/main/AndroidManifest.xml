@@ -72,6 +72,9 @@
         <activity
             android:name=".ViewListPetsGuestActivity"
             android:exported="false" />
+        <activity
+            android:name=".ViewUsersListActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

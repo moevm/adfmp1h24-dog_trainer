@@ -94,4 +94,6 @@
     <string name="idPet">ID</string>
     <string name="look">Посмотреть</string>
     <string name="usersListScreenHeader">Список пользователей</string>
+    <string name="about">About</string>
+    <string name="aboutRus">О нас</string>
 </resources>

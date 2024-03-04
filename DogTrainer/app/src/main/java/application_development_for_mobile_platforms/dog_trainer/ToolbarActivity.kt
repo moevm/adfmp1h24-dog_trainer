@@ -69,6 +69,12 @@ open class ToolbarActivity : AppCompatActivity() {
                     finish()
                     true
                 }
+                R.id.about -> {
+                    val intent = Intent(this@ToolbarActivity, AboutActivity ::class.java)
+                    startActivity(intent)
+                    finish()
+                    true
+                }
                 R.id.logout -> {
                     val intent = Intent(this@ToolbarActivity, AuthUserActivity ::class.java)
                     startActivity(intent)

@@ -95,22 +95,6 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.194" />
 
-        <Button
-            android:id="@+id/addPetButton"
-            android:layout_width="193dp"
-            android:layout_height="44dp"
-            android:layout_marginTop="430dp"
-            android:background="@color/mainElements"
-            android:text="@string/addPet"
-            android:textColor="@color/white"
-            android:textSize="13sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.926"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/topRectangle"
-            app:layout_constraintVertical_bias="0.124" />
-
         <TableLayout
             android:id="@+id/skillsTable"
             android:layout_width="391dp"
@@ -146,7 +130,7 @@
                     android:layout_marginRight="2dp"
                     android:layout_marginBottom="2dp"
                     android:background="#FFFFFF"
-                    android:text="@string/PetNameText"
+                    android:text="Имя пользователя"
                     android:textAlignment="center"
                     android:textColor="#000000"
                     android:textSize="13sp" />
@@ -190,7 +174,7 @@
                     android:layout_marginBottom="2dp"
                     android:autoSizeTextType="none"
                     android:background="#FFFFFF"
-                    android:text="Барс"
+                    android:text="Катя"
                     android:textColor="#000000" />
 
                 <LinearLayout
@@ -213,20 +197,6 @@
                         android:background="@color/mainElements"
                         android:layout_gravity="center|center_horizontal"
                         android:text="@string/look"
-                        android:textSize="10sp" />
-
-                    <Space
-                        android:layout_width="match_parent"
-                        android:layout_height="10dp"
-                        />
-
-                    <Button
-                        android:id="@+id/button2"
-                        android:layout_width="70dp"
-                        android:layout_height="18dp"
-                        android:layout_gravity="center|center_horizontal"
-                        android:background="@color/mainElements"
-                        android:text="@string/delete"
                         android:textSize="10sp" />
 
                 </LinearLayout>
@@ -258,7 +228,7 @@
                     android:layout_marginBottom="2dp"
                     android:autoSizeTextType="none"
                     android:background="#FFFFFF"
-                    android:text="Шарик"
+                    android:text="Лиза"
                     android:textColor="#000000" />
 
                 <LinearLayout
@@ -275,25 +245,12 @@
                         android:layout_height="25dp" />
 
                     <Button
-                        android:id="@+id/button3"
+                        android:id="@+id/button2"
                         android:layout_width="70dp"
                         android:layout_height="18dp"
                         android:background="@color/mainElements"
                         android:text="@string/look"
                         android:layout_gravity="center|center_horizontal"
-                        android:textSize="10sp" />
-
-                    <Space
-                        android:layout_width="match_parent"
-                        android:layout_height="10dp" />
-
-                    <Button
-                        android:id="@+id/button4"
-                        android:layout_width="70dp"
-                        android:layout_height="18dp"
-                        android:layout_gravity="center|center_horizontal"
-                        android:background="@color/mainElements"
-                        android:text="@string/delete"
                         android:textSize="10sp" />
 
                 </LinearLayout>

@@ -13,9 +13,6 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:targetApi="31">
         <activity
-            android:name=".ViewUsersListActivity"
-            android:exported="false" />
-        <activity
             android:name=".AuthUserActivity"
             android:exported="true">
             <intent-filter>
@@ -74,6 +71,9 @@
             android:exported="false" />
         <activity
             android:name=".ViewListPetsGuestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewUsersListActivity"
             android:exported="false" />
     </application>
 

@@ -262,25 +262,13 @@
         android:id="@+id/buttonUsersAchievements"
         android:layout_width="220dp"
         android:layout_height="39dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="16dp"
         android:background="@color/mainElements"
         android:text="@string/guestButtonUsersAchievementsList"
         android:textAlignment="center"
         android:textColor="#000000"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonUsersTraining" />
-
-    <Button
-        android:id="@+id/buttonUsersTraining"
-        android:layout_width="212dp"
-        android:layout_height="39dp"
-        android:layout_marginTop="15dp"
-        android:background="@color/mainElements"
-        android:text="@string/guestButtonUsersTrainingList"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonUsersPet" />
 
@@ -291,7 +279,7 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:visibility="visible"
+        android:visibility="gone"
         app:menu="@menu/nav_menu" />
 
 </androidx.drawerlayout.widget.DrawerLayout>

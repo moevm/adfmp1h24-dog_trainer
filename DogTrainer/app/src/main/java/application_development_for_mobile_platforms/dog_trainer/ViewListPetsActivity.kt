@@ -45,4 +45,11 @@ class ViewListPetsActivity : ToolbarActivity() {
             finish()
         }
     }
+
+    override fun onBackPressed() {
+        val intent = Intent(this@ViewListPetsActivity, ViewUserMeActivity ::class.java)
+        startActivity(intent)
+        finish()
+        super.onBackPressed()
+    }
 }

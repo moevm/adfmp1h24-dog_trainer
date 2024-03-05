@@ -3,6 +3,8 @@ package application_development_for_mobile_platforms.dog_trainer
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.widget.AppCompatButton
 
 class AuthUserActivity : AppCompatActivity() {
@@ -33,5 +35,23 @@ class AuthUserActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+    }
+
+    override fun onBackPressed() {
+        AlertDialog.Builder(this).apply {
+            setTitle("Подтверждение")
+            setMessage("Вы уверены, что хотите выйти из приложения?")
+
+            setPositiveButton("Да") { _, _ ->
+                super.onBackPressed()
+            }
+
+            setNegativeButton("Нет"){_, _ ->
+                // if user press no, then return the activity
+                Toast.makeText(this@AuthUserActivity, "Thank you",
+                    Toast.LENGTH_LONG).show()
+            }
+            setCancelable(true)
+        }.create().show()
     }
 }

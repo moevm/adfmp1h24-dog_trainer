@@ -34,4 +34,11 @@ class ViewListPetsGuestActivity : ToolbarActivity() {
             finish()
         }
     }
+
+    override fun onBackPressed() {
+        val intent = Intent(this@ViewListPetsGuestActivity, ViewUserGuestModeActivity ::class.java)
+        startActivity(intent)
+        finish()
+        super.onBackPressed()
+    }
 }

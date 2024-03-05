@@ -1,5 +1,6 @@
 package application_development_for_mobile_platforms.dog_trainer
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -12,5 +13,12 @@ class CommandActivity : ToolbarActivity() {
         setContentView(R.layout.activity_command)
 
         initToolbar()
+    }
+
+    override fun onBackPressed() {
+        val intent = Intent(this@CommandActivity, CatalogCommandActivity ::class.java)
+        startActivity(intent)
+        finish()
+        super.onBackPressed()
     }
 }

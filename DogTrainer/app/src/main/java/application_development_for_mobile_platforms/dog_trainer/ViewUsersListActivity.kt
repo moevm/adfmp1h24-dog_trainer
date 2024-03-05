@@ -34,4 +34,11 @@ class ViewUsersListActivity : ToolbarActivity() {
             finish()
         }
     }
+
+    override fun onBackPressed() {
+        val intent = Intent(this@ViewUsersListActivity, ViewUserMeActivity ::class.java)
+        startActivity(intent)
+        finish()
+        super.onBackPressed()
+    }
 }

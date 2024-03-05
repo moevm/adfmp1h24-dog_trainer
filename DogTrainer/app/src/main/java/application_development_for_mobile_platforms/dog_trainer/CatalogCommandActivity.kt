@@ -17,4 +17,11 @@ class CatalogCommandActivity : ToolbarActivity() {
         startActivity(intent)
         finish()
     }
+
+    override fun onBackPressed() {
+        val intent = Intent(this@CatalogCommandActivity, ViewUserMeActivity ::class.java)
+        startActivity(intent)
+        finish()
+        super.onBackPressed()
+    }
 }

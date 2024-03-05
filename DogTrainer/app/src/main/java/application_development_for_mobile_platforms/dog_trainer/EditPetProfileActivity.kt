@@ -23,4 +23,11 @@ class EditPetProfileActivity : ToolbarActivity() {
             finish()
         }
     }
+
+    override fun onBackPressed() {
+        val intent = Intent(this@EditPetProfileActivity, ViewListPetsActivity ::class.java)
+        startActivity(intent)
+        finish()
+        super.onBackPressed()
+    }
 }

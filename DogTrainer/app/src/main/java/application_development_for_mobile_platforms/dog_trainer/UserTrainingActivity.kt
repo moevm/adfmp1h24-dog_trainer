@@ -23,4 +23,11 @@ class UserTrainingActivity : ToolbarActivity() {
             finish()
         }
     }
+
+    override fun onBackPressed() {
+        val intent = Intent(this@UserTrainingActivity, ViewUserMeActivity ::class.java)
+        startActivity(intent)
+        finish()
+        super.onBackPressed()
+    }
 }

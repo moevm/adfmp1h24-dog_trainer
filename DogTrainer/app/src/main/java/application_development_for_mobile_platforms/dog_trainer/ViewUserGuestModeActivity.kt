@@ -45,4 +45,11 @@ class ViewUserGuestModeActivity : ToolbarActivity() {
             finish()
         }
     }
+
+    override fun onBackPressed() {
+        val intent = Intent(this@ViewUserGuestModeActivity, ViewUsersListActivity ::class.java)
+        startActivity(intent)
+        finish()
+        super.onBackPressed()
+    }
 }
